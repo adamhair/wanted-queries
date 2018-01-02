@@ -7,24 +7,24 @@ class Header extends Component {
     return (
       <div>
         <div className="titleBar">
-          <h2> Enter Wanted </h2>
+          <h2 name="enterWanted"> Enter Wanted </h2>
         </div>
         <table>
           <tbody>
             <tr>
               <td>
                 <Link to="/enter">
-                  <p>Enter Wanted</p>
+                  <p name="enterWanted">Enter Wanted</p>
                 </Link>
               </td>
               <td>
                 <Link to="/modify">
-                  <p>Modify Wanted</p>
+                  <p name="modifyWanted">Modify Wanted</p>
                 </Link>
               </td>
               <td>
                 <Link to="/cancel">
-                  <p>Cancel Wanted</p>
+                  <p name="cancelWanted">Cancel Wanted</p>
                 </Link>
               </td>
             </tr>
