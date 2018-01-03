@@ -117,6 +117,7 @@ module.exports = {
     },
     // Checks to make sure each field can be modified and each set of optional fields can be modified together resulting in a valid query
     'Test modify wanted page with valid input in header field': (browser) => {
+        browser.waitForElementVisible(selectors.pages.modifyWanted, 3000)
         browser.click(selectors.pages.modifyWanted)
         functions.enterMultipleValues(selectors.modifyWantedFields, data.modifyWanted.validInput.header, browser)
         browser.click(selectors.global.submit)
