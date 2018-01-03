@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
+<testsuites errors="33"
+            failures="1"
             tests="48">
 
   <testsuite name="test"
-    errors="0" failures="0" hostname="" id="" package="test" skipped="0"
-    tests="48" time="52.88" timestamp="Tue, 02 Jan 2018 21:52:17 GMT">
+    errors="33" failures="1" hostname="" id="" package="test" skipped="39"
+    tests="48" time="18.05" timestamp="Wed, 03 Jan 2018 00:55:36 GMT">
   
-    <testcase name="Test enter wanted page with not enough characters" classname="test" time="4.016" assertions="18">
+    <testcase name="Test enter wanted page with not enough characters" classname="test" time="4.220" assertions="18">
 
     
 
@@ -46,7 +46,7 @@
     
     </testcase>
   
-    <testcase name="Test enter wanted page with minimum characters" classname="test" time="1.796" assertions="18">
+    <testcase name="Test enter wanted page with minimum characters" classname="test" time="1.867" assertions="18">
 
     
 
@@ -85,7 +85,7 @@
     
     </testcase>
   
-    <testcase name="Test enter wanted page with characters in the middle of the boundary" classname="test" time="2.044" assertions="18">
+    <testcase name="Test enter wanted page with characters in the middle of the boundary" classname="test" time="2.067" assertions="18">
 
     
 
@@ -124,7 +124,7 @@
     
     </testcase>
   
-    <testcase name="Test enter wanted page with maximum characters" classname="test" time="2.257" assertions="18">
+    <testcase name="Test enter wanted page with maximum characters" classname="test" time="2.331" assertions="18">
 
     
 
@@ -163,7 +163,7 @@
     
     </testcase>
   
-    <testcase name="Test enter wanted page with to many characters" classname="test" time="2.397" assertions="18">
+    <testcase name="Test enter wanted page with to many characters" classname="test" time="2.478" assertions="18">
 
     
 
@@ -202,7 +202,7 @@
     
     </testcase>
   
-    <testcase name="Test enter wanted page with empty fields" classname="test" time="1.258" assertions="18">
+    <testcase name="Test enter wanted page with empty fields" classname="test" time="1.236" assertions="18">
 
     
 
@@ -241,7 +241,7 @@
     
     </testcase>
   
-    <testcase name="Test drivers license set with driver license field" classname="test" time="1.652" assertions="18">
+    <testcase name="Test drivers license set with driver license field" classname="test" time="1.695" assertions="18">
 
     
 
@@ -280,7 +280,7 @@
     
     </testcase>
   
-    <testcase name="Test drivers license set with driver license state" classname="test" time="1.657" assertions="18">
+    <testcase name="Test drivers license set with driver license state" classname="test" time="1.755" assertions="18">
 
     
 
@@ -319,787 +319,646 @@
     
     </testcase>
   
-    <testcase name="Test drivers license set with driver license expiration" classname="test" time="1.709" assertions="18">
+    <testcase name="Test drivers license set with driver license expiration" classname="test" time="0.3970" assertions="18">  <failure message="Testing if value of &lt;input[name=&quot;olnInput&quot;]&gt; equals: &quot;&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;olsInput&quot;]&gt; equals: &quot;&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;oldInput&quot;]&gt; equals: &quot;11232014&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;licInput&quot;]&gt; equals: &quot;&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;lisInput&quot;]&gt; equals: &quot;&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;lidInput&quot;]&gt; equals: &quot;&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;hdrInput&quot;]&gt; equals: &quot;abcde1234&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;mkeInput&quot;]&gt; equals: &quot;ha!&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;oriInput&quot;]&gt; equals: &quot;asdfjkirg&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;namInput&quot;]&gt; equals: &quot;Anastasia Cordelia&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;sexInput&quot;]&gt; equals: &quot;F&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;racInput&quot;]&gt; equals: &quot;B&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;hgtInput&quot;]&gt; equals: &quot;602&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;wgtInput&quot;]&gt; equals: &quot;7&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;haiInput&quot;]&gt; equals: &quot;Whi&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;offInput&quot;]&gt; equals: &quot;Assua&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
+      <failure message="Testing if value of &lt;input[name=&quot;dowInput&quot;]&gt; equals: &quot;10291999&quot;. Element or attribute could not be located.">    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:5:20)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)</failure>
 
-    
-
-    
-    </testcase>
-  
-    <testcase name="Test drivers license set with driver license and driver license state" classname="test" time="1.736" assertions="18">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+      <failure message="Expected element &lt;ul[id=&quot;errorList&quot;]&gt; text to equal: &quot;If one of the following are present, all must be present: Drivers License, DL State, DL Expiration Date.&quot; - element was not found">    at Object.checkErrors (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:16:20)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:64:19)</failure>
 
     
     </testcase>
   
-    <testcase name="Test drivers license set with driver license and driver license expiration" classname="test" time="1.765" assertions="18">
 
-    
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;input[name=&quot;olsInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;olsInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;oldInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;oldInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;licInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;licInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;lisInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;lisInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;lidInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;lidInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;hdrInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;hdrInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;mkeInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;mkeInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;oriInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;oriInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;namInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;namInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;sexInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;sexInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;racInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;racInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;hgtInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;hgtInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;wgtInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;wgtInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;haiInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;haiInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;offInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;offInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[name=&quot;dowInput&quot;]&quot; using: css selector
+    at enterValue (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:4:13)
+    at Object.enterMultipleValues (/Users/AdamHair/Projects/wanted-queries/nightwatch/test_data/functions.js:11:9)
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:62:19)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&quot;dowInput&quot;]&quot; using: css selector
+    at F.command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;button[id=&quot;saveBtn&quot;]&quot; using: css selector
+    at Object.Test drivers license set with driver license expiration (/Users/AdamHair/Projects/wanted-queries/nightwatch/tests/test.js:63:17)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
 
+  
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test drivers license set with driver license and driver license state" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test drivers license set with driver license state and driver license expiration" classname="test" time="1.713" assertions="18">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test drivers license set with driver license and driver license expiration" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test license plate set with license plate field" classname="test" time="1.805" assertions="18">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test drivers license set with driver license state and driver license expiration" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test license plate set with license state field" classname="test" time="1.669" assertions="18">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test license plate set with license plate field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test license plate set with license expiration field" classname="test" time="1.680" assertions="18">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test license plate set with license state field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test license plate set with license plate and state fields" classname="test" time="1.676" assertions="18">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test license plate set with license expiration field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test license plate set with license plate and expiration fields" classname="test" time="1.700" assertions="18">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test license plate set with license plate and state fields" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test license plate set with license state and expiration fields" classname="test" time="1.684" assertions="18">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test license plate set with license plate and expiration fields" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test clear button on enter wanted page" classname="test" time="2.497" assertions="34">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test license plate set with license state and expiration fields" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with valid input in header field" classname="test" time="0.5550" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test clear button on enter wanted page" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with valid input in mke field" classname="test" time="0.4650" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with valid input in header field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with valid input in oai field" classname="test" time="0.6480" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with valid input in mke field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with valid input in name field" classname="test" time="0.5890" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with valid input in oai field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with valid input in sex field" classname="test" time="0.4580" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with valid input in name field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with valid input in race field" classname="test" time="0.4670" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with valid input in sex field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with valid input in height field" classname="test" time="0.4500" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with valid input in race field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with valid input in hair field" classname="test" time="0.5450" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with valid input in height field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with valid input in offense field" classname="test" time="0.5530" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with valid input in hair field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with valid input in date of warrant field" classname="test" time="0.4840" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with valid input in offense field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with valid input in drivers license set of fields" classname="test" time="0.7420" assertions="5">
-
     
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with valid input in date of warrant field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with valid input in license plate set of fields" classname="test" time="0.7010" assertions="5">
-
     
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with valid input in drivers license set of fields" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in header field" classname="test" time="0.4780" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with valid input in license plate set of fields" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in mke field" classname="test" time="0.4610" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in header field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in oai field" classname="test" time="0.5320" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in mke field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in name field" classname="test" time="0.4660" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in oai field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in sex field" classname="test" time="0.4900" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in name field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in race field" classname="test" time="0.4780" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in sex field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in height field" classname="test" time="0.5410" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in race field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in weight field" classname="test" time="0.5080" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in height field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in hair field" classname="test" time="0.5420" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in weight field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in offense field" classname="test" time="0.4810" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in hair field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in date of warrant field" classname="test" time="0.4840" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in offense field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in drivers license set of fields" classname="test" time="0.8910" assertions="5">
-
     
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in date of warrant field" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test modify wanted page with invalid input in license plate set of fields" classname="test" time="0.6830" assertions="5">
-
     
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in drivers license set of fields" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test clear button on modify wanted page" classname="test" time="0.7990" assertions="18">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test modify wanted page with invalid input in license plate set of fields" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test cancel wanted page with valid input" classname="test" time="0.5620" assertions="4">
-
     
-
-    
-
-    
-
-    
+    <testcase
+      name="Test clear button on modify wanted page" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test cancel wanted page with invalid input" classname="test" time="0.5220" assertions="4">
-
     
-
-    
-
-    
-
-    
+    <testcase
+      name="Test cancel wanted page with valid input" classname="test">
+      <skipped />
     </testcase>
-  
-    <testcase name="Test clear button on cancel wanted page" classname="test" time="0.5990" assertions="6">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Test cancel wanted page with invalid input" classname="test">
+      <skipped />
     </testcase>
-  
-
-  
-
+    
+    <testcase
+      name="Test clear button on cancel wanted page" classname="test">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>
